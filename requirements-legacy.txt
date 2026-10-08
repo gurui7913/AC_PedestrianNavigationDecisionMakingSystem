@@ -1,0 +1,12 @@
+# Import-derived dependencies for historical scripts, NOT a 2024 lockfile.
+# Not installed or validated end-to-end during the 2026 reorganisation.
+numpy
+pandas
+Pillow
+opencv-python
+torch
+torchvision
+scikit-learn
+imbalanced-learn
+matplotlib
+git+https://github.com/openai/CLIP.git

@@ -1,0 +1,12 @@
+{
+  "generated_on": "2026-10-08",
+  "source": "local archived similarity_results.csv; see README.md in this directory",
+  "source_sha256": "f4a4ee30b48b8445190679fde264e4f8d50df7a868d1048ef79ffbdb1d31f1b7",
+  "row_count": 13,
+  "arithmetic_mean": 0.23543431076923077,
+  "minimum": 0.20782986,
+  "maximum": 0.26702073,
+  "participant_coverage": "not established by source CSV",
+  "feature_pairing_verified": false,
+  "new_model_run": false
+}
