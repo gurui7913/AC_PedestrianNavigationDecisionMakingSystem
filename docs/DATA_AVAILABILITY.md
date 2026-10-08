@@ -1,6 +1,6 @@
 # Data availability and local source map
 
-The repository publishes seven historical scripts, the previously public project presentation, documentation and small aggregate summaries. It does not include a complete reproducible dataset.
+The repository publishes seven historical scripts, the previously public project presentation, selected page images from that presentation, documentation and small aggregate summaries. It does not include a complete reproducible dataset.
 
 ## Public material
 
@@ -8,6 +8,7 @@ The repository publishes seven historical scripts, the previously public project
 |---|---|---|
 | Historical scripts | `scripts/` | Original contents retained; paths reorganised |
 | Original presentation | `docs/presentations/ProjectSlides_2024.pdf` | Same PDF previously published at repository root; historical claims need current caveats |
+| README visual gallery | `docs/images/` | Full-page renders of slides 1, 12, 13, 16 and 23 from that PDF, with current contextual captions |
 | Label-count summary | `data/summary/label_counts.csv` | Counts for three saved modelling groups; numeric direction mapping unresolved |
 | Similarity summary | `data/summary/similarity_summary.json` | Descriptive statistics for one archived 13-row CSV |
 
@@ -35,6 +36,6 @@ The original local archive is preserved in place. This reorganisation creates a 
 
 ## Excluded from this update
 
-No new participant names, face videos, audio recordings, transcripts, raw gaze exports, heatmaps, feature tensors, CV files, private interview notes or full course archive are uploaded. Raw inputs and generated model artifacts are covered by `.gitignore`; that file does not replace a review of staged files.
+Beyond the examples already visible in the public presentation and its selected page renders, no additional participant names, face videos, audio recordings, full transcripts, raw gaze exports, heatmaps, feature tensors, CV files, private interview notes or full course archive are uploaded. Raw inputs and generated model artifacts are covered by `.gitignore`; that file does not replace a review of staged files.
 
 The existing presentation may contain third-party imagery and historical experiment examples. It was already public and remains an archival document, not a blanket release of the source data. No new consent, ethics approval or redistribution rights are asserted. Any future participant-level release requires its own consent, de-identification and source-rights review.

@@ -1,0 +1,39 @@
+{
+  "source": "../presentations/ProjectSlides_2024.pdf",
+  "source_sha256": "cc2be25574c99f74121436ef5becdf385f171f92b624c4ceae17238cda898560",
+  "export_date": "2026-10-08",
+  "renderer": "pdftoppm (Poppler)",
+  "settings": {
+    "scale_to": 1600,
+    "format": "jpeg",
+    "quality": 90,
+    "crop": false
+  },
+  "pages": [
+    {
+      "page": 1,
+      "file": "01_project_cover.jpg",
+      "sha256": "9a3dcaf5c1807b8591c1017d2ce3f4a34fb7076c7a12209673e16a8a209c5d61"
+    },
+    {
+      "page": 12,
+      "file": "02_study_site.jpg",
+      "sha256": "99f4cbe1c3885e033a2b93fb8bc736fc22e95c9b0e60b0354ead70d771588483"
+    },
+    {
+      "page": 13,
+      "file": "03_street_view_stimuli.jpg",
+      "sha256": "a9653aed44bf9a87f49a0f1053315b6aea75a84a199143ef1d9ea39cd5fe3b90"
+    },
+    {
+      "page": 16,
+      "file": "04_gaze_and_rationales.jpg",
+      "sha256": "a0e6443467b7c2304346c8a2824edb6e108d3e96e0db8280a1a83355e3db7265"
+    },
+    {
+      "page": 23,
+      "file": "05_heatmap_processing.jpg",
+      "sha256": "af0b789c11ed115f21fd6ef52618ca80e7a2ee9a6a2f625ebc9413b487833a99"
+    }
+  ]
+}

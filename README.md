@@ -6,6 +6,10 @@ UCL Bartlett School of Architecture · MSc Architectural Computation<br>
 Digital Studio 1: Simulated Realities · October–December 2024<br>
 **Team:** Rui Gu, Hexin Han, Cem Bektas
 
+![Track the Eyes, Track the Mind — original project cover](docs/images/01_project_cover.jpg)
+
+[Visual overview](#visual-overview) · [Study at a glance](#study-at-a-glance) · [Code guide](docs/CODE_GUIDE.md) · [Full presentation](docs/presentations/ProjectSlides_2024.pdf)
+
 This pilot study explores the relationship between visual attention and reported route-choice reasoning when people search for a train station in static street-view scenes. It combines Gaze Recorder heatmaps, verbal explanations, pretrained CLIP features and an exploratory Random Forest classifier.
 
 **Repository status:** historical research prototype, reorganised in October 2026. The seven original scripts are retained without changes to their contents. Documentation now distinguishes the collected material from the modelling subset and describes the actual implementation. This repository is a project archive, not a validated navigation system or a turnkey reproduction package.
@@ -15,6 +19,39 @@ This pilot study explores the relationship between visual attention and reported
 > What is the relationship between pedestrians’ visual attention distribution and the environmental cues they report using for wayfinding decisions when searching for a train station in static street-view images?
 
 The task concerns choices in screen-based scenes near King's Cross, London. It does not measure complete real-world walking routes or establish causal effects of street design.
+
+## Visual overview
+
+Selected pages from our December 2024 presentation show the study setting, experimental stimuli and collected responses. Images can be opened at full resolution. These are archival illustrations; the current captions distinguish observations from model-validation claims.
+
+### 1. Study setting: King's Cross, London
+
+![Map of King's Cross and the main-road and community-road study locations](docs/images/02_study_site.jpg)
+
+*Slide 12 — Selected viewpoints around the station, covering a main-road corridor and community-road scenes. The map records the study setting; it does not establish a representative sample of London streets.*
+
+### 2. What participants saw
+
+![Four warm-up scenes and thirteen formal street-view scenes, grouped by main and community road](docs/images/03_street_view_stimuli.jpg)
+
+*Slide 13 — Four warm-up images followed by 13 formal stimuli: eight main-road and five community-road scenes. The distinction provides context for comparing responses across scene types.*
+
+### 3. Gaze patterns alongside reported choices
+
+![Examples of gaze heatmaps paired with spoken route choices and explanations](docs/images/04_gaze_and_rationales.jpg)
+
+*Slide 16 — Examples of the same street scene paired with different gaze heatmaps and verbal rationales. This illustrates the project's central idea: examine where participants looked alongside how they explained their choices. The examples are collected responses, not model-generated predictions.*
+
+<details>
+<summary><strong>View the heatmap-processing example</strong></summary>
+
+![Original street-view image, recorded heatmap and an image-processing overlay](docs/images/05_heatmap_processing.jpg)
+
+*Slide 23 — Historical illustration of comparing a scene with its heatmap to create a processing overlay. The archived script uses cropping, resizing and image differences; this example is not evidence of a trained heatmap predictor or validated gaze localisation.*
+
+</details>
+
+[View the complete 38-slide presentation](docs/presentations/ProjectSlides_2024.pdf) · [Image sources and export details](docs/images/README.md)
 
 ## Study at a glance
 
@@ -75,6 +112,7 @@ CLIP is used for feature extraction without fine-tuning. The image script averag
 │   ├── label_counts.csv
 │   └── similarity_summary.json
 └── docs/
+    ├── images/                    # selected presentation pages used above
     ├── CODE_GUIDE.md
     ├── METHODS_AND_LIMITATIONS.md
     ├── DATA_AVAILABILITY.md
@@ -141,7 +179,7 @@ Historical script headers are preserved as archived metadata; they should not be
 
 ## Data, attribution and reuse
 
-Newly published material is limited to code documentation and small aggregate summaries. Participant names, face recordings, audio, individual transcripts, raw gaze files, feature tensors and the full local experiment archive have not been added. See [data availability](docs/DATA_AVAILABILITY.md).
+Public material includes code documentation, small aggregate summaries and selected images rendered from the already-public presentation. The gallery includes only the heatmap and rationale examples already visible in that PDF. No additional participant names, face recordings, audio, full individual transcripts, raw gaze files, feature tensors or private experiment archive have been added. See [data availability](docs/DATA_AVAILABILITY.md).
 
 The original presentation was already public and is retained with its existing image and literature credits. Its inclusion does not grant rights to redistribute third-party imagery or participant material. No new blanket licence is assigned to the team’s work during this reorganisation.
 
