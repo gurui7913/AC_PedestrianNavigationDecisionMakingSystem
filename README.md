@@ -12,7 +12,7 @@ Digital Studio 1: Simulated Realities · October–December 2024<br>
 
 This pilot study explores the relationship between visual attention and reported route-choice reasoning when people search for a train station in static street-view scenes. It combines Gaze Recorder heatmaps, verbal explanations, pretrained CLIP features and an exploratory Random Forest classifier.
 
-**Repository status:** historical research prototype, reorganised in October 2026. The seven original scripts are retained without changes to their contents. Documentation now distinguishes the collected material from the modelling subset and describes the actual implementation. This repository is a project archive, not a validated navigation system or a turnkey reproduction package.
+**Repository status:** historical research prototype, reorganised in March 2025. The seven original scripts are retained without changes to their contents. Documentation now distinguishes the collected material from the modelling subset and describes the actual implementation. This repository is a project archive, not a validated navigation system or a turnkey reproduction package.
 
 ## Research question
 
